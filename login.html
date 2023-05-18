@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>התחברות והרשמה</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" id="login-container">
+        <h1>התחברות</h1>
+        <input type="text" id="login-username" placeholder="שם משתמש">
+        <input type="password" id="login-password" placeholder="סיסמה">
+        <button onclick="login()">התחבר</button>
+        <p>או</p>
+        <button onclick="showRegisterForm()">הירשם</button>
+    </div>
+
+    <div class="container" id="register-container">
+        <h1>הרשמה</h1>
+        <input type="text" id="register-username" placeholder="שם משתמש">
+        <input type="password" id="register-password" placeholder="סיסמה">
+        <button onclick="register()">הירשם</button>
+        <p>או</p>
+        <button onclick="showLoginForm()">התחבר</button>
+    </div>
+
+    <div class="container" id="home-container">
+        <h1>עמוד הבית</h1>
+        <div id="tweet-form">
+            <h2>ציוץ</h2>
+            <textarea id="tweet-text" placeholder="הזן תוכן ציוץ"></textarea>
+            <button onclick="addTweet()">ציוץ</button>
+        </div>
+        <div id="tweets-container">
+            <h2>פוסטים</h2>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+

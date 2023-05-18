@@ -1,0 +1,44 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input, textarea, button {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+#register-container, #home-container {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+  
